@@ -65,13 +65,13 @@ class Library
   end
   def student
     while (@innerChoice != 9)
-      puts "\n\t\t Student Login is Successful !! Press any button to continue..."
-      puts "\t\t\t 1. Issue a Book "
-      puts "\t\t\t 2. Return a Book"
-      puts "\t\t\t 3. List of All Books in LIBRARY"
-      puts "\t\t\t 4. List Of All Books have STUDENT "
-      puts "\t\t\t 5. Search Book"
-      puts "\t\t\t 9. Back"
+      puts " Student Login is Successful !! Press any button to continue..."
+      puts " 1. Issue a Book "
+      puts " 2. Return a Book"
+      puts " 3. List of All Books in LIBRARY"
+      puts " 4. List Of All Books have STUDENT "
+      puts " 5. Search Book"
+      puts " 9. Back"
       puts "Enter Your Choice:"
       @innerChoice = gets.chomp().to_i
       case @innerChoice
