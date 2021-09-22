@@ -21,9 +21,9 @@ class Library
       case @outerChoice
       when 1
         @who_am_i = Login.account
-        if @who_am_i == "admin"
+        if @who_am_i.eql?("admin")
           admin
-        elsif @who_am_i == "user"
+        elsif @who_am_i.eql?("user")
           student
         else
           puts @who_am_i
@@ -89,7 +89,7 @@ class Library
         puts " Thank You! For Exit()"
         break
       else
-        puts " Error! invalid choice\n\n "
+        puts " Error! invalid choice\n\n   "
       end
     end
   end
