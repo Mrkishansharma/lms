@@ -94,5 +94,5 @@ class Library
     end
   end
 end
-l = Library.new
-l.login
+lms = Library.new
+lms.login
